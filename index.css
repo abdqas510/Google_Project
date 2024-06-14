@@ -1,145 +1,127 @@
-
-
 body {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 nav {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin-right: 30px;
-	margin-top: 14px;
-	
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 14px;
 }
 nav a {
-
-	font-size: 13px;
-	font-family: arial, sans-serif;
-	display: flex;
-	line-height: 24px;
-	color: #000000;
-	padding: 5px 6.7px;
-	text-decoration: none;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  display: flex;
+  line-height: 24px;
+  color: #000000;
+  padding: 5px 6.7px;
+  text-decoration: none;
 }
 nav a:hover {
-	text-decoration: underline;
-	
+  text-decoration: underline;
 }
 nav img {
-
-	width: 35px;
-	padding: 7px;
-		
+  width: 35px;
+  padding: 7px;
 }
 
 nav button {
-
-	border: 1px solid #4285f4;
-	font-weight: bold;
-	font-family: arial, sans-serif;
-	background: #4285f4;
-	color: #fff;
-	padding: 12px;
-	border-radius: 3px;
-	margin-left:7px;
-	
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  background: #4285f4;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  margin-left: 7px;
 }
 .container {
-
-	flex:1;
-	align-items: center;
-	
+  flex: 1;
+  align-items: center;
 }
 .container .logo {
-	display: flex;
-	margin: auto;
-	margin-top: 107px;
-    height: 100px;
+  display: flex;
+  margin: auto;
+  margin-top: 107px;
+  height: 100px;
 }
 .s-box {
-	width: 580px;
-	margin: 1em auto;
-	position: relative;
-	text-align: center;
+  width: 580px;
+  margin: 1em auto;
+  position: relative;
+  text-align: center;
 }
 .s-box .s-input {
-	display: flex;
-	border: 1px solid #ddd;
-	color: #000000;
-	font-size: 16px;
-	font-family: arial, sans-serif;
-	padding: 13px;
-	padding-left: 45px;
-	border-radius: 25px;
-	width: 100%;
-	
+  display: flex;
+  border: 1px solid #ddd;
+  color: #000000;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  padding: 13px;
+  padding-left: 45px;
+  border-radius: 25px;
+  width: 100%;
 }
-.s-box  .s-input:hover {
-	border: 1px solid #b2b2b2;
-	
+.s-box .s-input:hover {
+  border: 1px solid #b2b2b2;
 }
 .s-box .search-icon {
-	width: 20px;
-	position: absolute;
-	top: 13px;
-	left: 14px;
+  width: 20px;
+  position: absolute;
+  top: 13px;
+  left: 14px;
 }
 .s-box .sa-icon {
-	width: 14px;
-	position: absolute;
-	top: 13px;
-	right: 0px;
+  width: 14px;
+  position: absolute;
+  top: 13px;
+  right: 0px;
 }
 
-.s-box .si-icon{
-
-    width: 24px;
-	position: absolute;
-	top: 11px;
-	right: -45px;
-
-
+.s-box .si-icon {
+  width: 24px;
+  position: absolute;
+  top: 11px;
+  right: -45px;
 }
 .s-box button {
-	border: 1px solid transparent;
-	padding: 9px 15px;
-	color: #666;
-	font-size: 14px;
-	font-family: arial, sans-serif;
-	border-radius: 4px;
-	margin-right: 10px;
-	margin-top: 28px;
-	
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: #666;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 28px;
 }
-.s-box  button:hover {
-	border: 1px solid #aaa;
+.s-box button:hover {
+  border: 1px solid #aaa;
 }
 
 footer {
-	background: #f2f2f2;
-	
+  background: #f2f2f2;
 }
 
 footer a {
-	color: #5f6368;
-	padding: 12px;
-	font-size: 14px;
-	font-family: arial, sans-serif;
-	text-decoration: none;
+  color: #5f6368;
+  padding: 12px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
 }
 footer a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 .links {
-	border-top: 1px solid #ddd;
-	display: flex;
+  border-top: 1px solid #ddd;
+  display: flex;
 }
 .link-1 {
-	padding-left: 19px;
-	flex: 1;
+  padding-left: 19px;
+  flex: 1;
 }
 .link-2 {
-	padding-right: 19px;
+  padding-right: 19px;
 }
